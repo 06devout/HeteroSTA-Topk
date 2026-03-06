@@ -1,0 +1,33 @@
+# Build directories
+/build/
+/cmake-build-*/
+
+# CMake generated files
+/CMakeCache.txt
+/CMakeFiles/
+/Makefile
+/cmake_install.cmake
+/install_manifest.txt
+/compile_commands.json
+
+# Generated binaries and libraries
+/*.o
+/*.a
+/*.so
+/*.out
+/heterosta_topk
+/simple_3bend_router_demo
+
+# Runtime outputs
+/output/*
+!/output/.gitkeep
+*.log
+*.rpt
+*.sdf
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
